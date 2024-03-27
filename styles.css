@@ -1,0 +1,47 @@
+.linavbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    gap: 8px;
+    justify-content: flex-start;
+}
+
+.navbar {
+    padding-inline-start: 0;
+}
+
+table,
+th,
+td {
+    border: 3px solid silver;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+table {
+    width: 100%;
+}
+
+.workth {
+    text-align: start;
+    background-color: skyblue;
+}
+
+form {
+    padding: 20px;
+}
+
+fieldset {
+    width: 50%;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+textarea,
+input,
+select {
+    border: 1px solid silver;
+    width: 80%;
+}
